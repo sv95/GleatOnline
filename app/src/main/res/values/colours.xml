@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--named by English colour name-->
+    <color name="grey">#444440</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--named by use description-->
+    <color name="textbox_border">#385D8A</color>
+    <color name="textbox_fill">#4BACC6</color>
+    <color name="sign_in_fill">#00B050</color>
+    <color name="register_fill">#E6AF00</color>
+
+</resources>

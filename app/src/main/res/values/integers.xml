@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="login_ime_id" format="integer">100</item>
+    <item type="integer" name="pick_image" format="integer">99</item>
+</resources>

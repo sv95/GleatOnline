@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Enter Email Address</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="show_password">Show password</string>
+
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Passwords must contain a lowercase character, an uppercase character, a digit, and a special symbol (any of the following: @ # $ % ! ? £ &amp; *)</string>
+    <string name="error_incorrect_email">This email is incorrect</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="signInWithFB">-Or sign in through Facebook-</string>
+
+</resources>

@@ -1,0 +1,166 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    >
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="32dp"
+                android:layout_alignParentTop="true"
+                >
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/textbox"
+                    android:hint="@string/prompt_email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/textbox"
+                    android:hint="@string/prompt_password"
+                    android:imeActionId="@integer/login_ime_id"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    >
+
+                    <CheckBox
+                        android:id="@+id/showPasswordCheckbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/show_password"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    >
+
+                    <Button
+                        android:id="@+id/sign_in_button"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_button"
+                        android:text="@string/action_register"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:padding="16dp"
+                        android:text="-OR-"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        />
+
+                    <Button
+                        android:id="@+id/register_button"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/register_button"
+                        android:text="@string/action_sign_in"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:text="@string/signInWithFB"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/fb_login_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/gleat_logo_black_bg"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

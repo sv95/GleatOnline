@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gleat Online</string>
+    <string name="title_activity_main">Welcome to Gleat Online</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Log Out</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>

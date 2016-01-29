@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--generic welcome string; will be changed in onCreate()-->
+    <string name="welcome">Welcome to Gleat Online.</string>
+
+    <!--strings for detail request prompt-->
+    <string name="details_prompt_title">Enter your missing details here before you can continue</string>
+    <string name="email_field_title">Email</string>
+    <string name="phone_field_title">Phone Number</string>
+    <string name="dob_field_title">Date Of Birth (American format: mm/dd/yyyy)</string>
+    <string name="email_error">Email does not match the required format</string>
+    <string name="phone_error">Phone number does not match the required format</string>
+    <string name="dob_error">Date of birth does not match the required format</string>
+    <string name="next_instruction">Click NEXT to choose your profile picture</string>
+    <string name="email_hint">email@example.com</string>
+    <string name="phone_hint">07123456789</string>
+
+    <!--strings for profile picture change-->
+    <string name="profile_pic_description">User profile picture</string>
+    <string name="profile_picture_caption">This is the default profile picture.\nClick the picture to change it.</string>
+    <string name="fresh_profile_picture_caption">Your new profile picture looks great! Unfortunately, it was set when you didn\'t have internet connection so if the app closes before you connect to the internet, it\'ll be lost and next time you open the app you\'ll see your old image. Connect to the internet to save your changes. This caption will magically disappear when the picture is updated on Gleat Online\'s database.\nClick the picture to change it.</string>
+    <string name="profile_pic_instruction">Click your profile picture to change it.</string>
+    <string name="profile_picture_intent_title">Set your profile picture</string>
+    <string name="profile_picture_dialog_title">No profile picture set</string>
+    <string name="profile_picture_reminder">Hi there. You haven\'t set a profile picture yet. Your profile picture helps give a face to your name so other users can easily identify you. Do you want to set your profile picture now?</string>
+    <string name="profile_picture_change_dialog_title">Change your profile picture</string>
+    <string name="profile_picture_change_reminder">Have you got that \"old profile picture\" feel? It\'s nice to change things up every so often. Click Yes to change your picture or No to keep it how it is.</string>
+
+    <!--Warning that logging out without internet may take time-->
+    <string name="logout_warning">Logging out might take a while if you don\'t have internet connection</string>
+
+</resources>
